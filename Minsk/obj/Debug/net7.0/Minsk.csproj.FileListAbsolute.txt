@@ -1,0 +1,15 @@
+C:\Users\Jordan\Source\compiler\Minsk\bin\Debug\net7.0\Minsk.exe
+C:\Users\Jordan\Source\compiler\Minsk\bin\Debug\net7.0\Minsk.deps.json
+C:\Users\Jordan\Source\compiler\Minsk\bin\Debug\net7.0\Minsk.runtimeconfig.json
+C:\Users\Jordan\Source\compiler\Minsk\bin\Debug\net7.0\Minsk.dll
+C:\Users\Jordan\Source\compiler\Minsk\bin\Debug\net7.0\Minsk.pdb
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\Minsk.csproj.AssemblyReference.cache
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\Minsk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\Minsk.AssemblyInfoInputs.cache
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\Minsk.AssemblyInfo.cs
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\Minsk.csproj.CoreCompileInputs.cache
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\Minsk.dll
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\refint\Minsk.dll
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\Minsk.pdb
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\Minsk.genruntimeconfig.cache
+C:\Users\Jordan\Source\compiler\Minsk\obj\Debug\net7.0\ref\Minsk.dll
