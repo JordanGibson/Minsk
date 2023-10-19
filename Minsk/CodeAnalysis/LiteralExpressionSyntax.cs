@@ -1,17 +1,17 @@
 ﻿namespace Minsk.CodeAnalysis;
 
-public sealed class NumberExpressionSyntax : ExpressionSyntax
+public sealed class LiteralExpressionSyntax : ExpressionSyntax
 {
-    public SyntaxToken NumberToken { get; }
+    public SyntaxToken LiteralToken { get; }
 
-    public NumberExpressionSyntax(SyntaxToken numberToken)
+    public LiteralExpressionSyntax(SyntaxToken literalToken)
     {
-        NumberToken = numberToken;
+        LiteralToken = literalToken;
     }
 
     public override SyntaxKind Kind => SyntaxKind.NumberExpression;
     public override IEnumerable<SyntaxNode> GetChildren()
     {
-        yield return NumberToken;
+        yield return LiteralToken;
     }
 }
