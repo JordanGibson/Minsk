@@ -1,6 +1,6 @@
 ﻿namespace Minsk.CodeAnalysis;
 
-sealed class NumberExpressionSyntax : ExpressionSyntax
+public sealed class NumberExpressionSyntax : ExpressionSyntax
 {
     public SyntaxToken NumberToken { get; }
 
