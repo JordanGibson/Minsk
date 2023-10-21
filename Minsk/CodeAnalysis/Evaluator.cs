@@ -26,26 +26,14 @@ public sealed class Evaluator
             var left = EvaluateExpression(b.Left);
             var right = EvaluateExpression(b.Right);
 
-            if (b.OperatorToken.Kind == SyntaxKind.PlusToken)
+            return b.OperatorToken.Kind switch
             {
-                return left + right;
-            }
-            else if (b.OperatorToken.Kind == SyntaxKind.MinusToken)
-            {
-                return left - right;
-            }
-            else if (b.OperatorToken.Kind == SyntaxKind.StarToken)
-            {
-                return left * right;
-            }
-            else if (b.OperatorToken.Kind == SyntaxKind.SlashToken)
-            {
-                return left / right;
-            }
-            else
-            {
-                throw new Exception($"Unexpected binary operator {b.OperatorToken.Kind}");
-            }
+                SyntaxKind.PlusToken => left + right,
+                SyntaxKind.MinusToken => left - right,
+                SyntaxKind.StarToken => left * right,
+                SyntaxKind.SlashToken => left / right,
+                _ => throw new Exception($"Unexpected binary operator {b.OperatorToken.Kind}")
+            };
         }
 
         if (node is ParenthesisedExpressionSyntax p)
